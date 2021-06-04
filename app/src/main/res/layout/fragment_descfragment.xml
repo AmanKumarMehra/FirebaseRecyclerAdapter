@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout
+    tools:context=".descfragment"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_height="228dp"
+        android:layout_width="240dp"
+        android:src="@color/common_google_signin_btn_text_dark_disabled"
+        android:layout_marginTop="40dp"
+        android:id="@+id/imageholder"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/nameholder"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="Candidate Name"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/courseholder"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:text="Candidate Course"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/emailholder"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:text="Candidate Email"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/verifiedholder"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:text="Verifed User"
+            android:textStyle="bold"/>
+
+</LinearLayout>
+
+</FrameLayout>
